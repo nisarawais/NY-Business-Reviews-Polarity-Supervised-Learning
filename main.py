@@ -455,7 +455,7 @@ if __name__ == '__main__':
 
     firstLine = True
 
-    with open("reviews_in_ny_f.tsv") as file:
+    with open("reviews_in_ny_s.tsv") as file:
         for line in file:
             line = line.split("\t")
             if firstLine == True:
